@@ -1,0 +1,13 @@
+         ps       /tb_comparator_1bit/A                            
+          delta        /tb_comparator_1bit/B                       
+                       /tb_comparator_1bit/A_lt_B                  
+                            /tb_comparator_1bit/A_eq_B             
+                                 /tb_comparator_1bit/A_gt_B        
+          0  +0                    1'h0 1'h0 1'hx 1'hx 1'hx 
+          0  +1                    1'h0 1'h0 1'h0 1'h1 1'h0 
+      20000  +0                    1'h0 1'h1 1'h0 1'h1 1'h0 
+      20000  +1                    1'h0 1'h1 1'h1 1'h0 1'h0 
+      40000  +0                    1'h1 1'h0 1'h1 1'h0 1'h0 
+      40000  +1                    1'h1 1'h0 1'h0 1'h0 1'h1 
+      60000  +0                    1'h1 1'h1 1'h0 1'h0 1'h1 
+      60000  +1                    1'h1 1'h1 1'h0 1'h1 1'h0 

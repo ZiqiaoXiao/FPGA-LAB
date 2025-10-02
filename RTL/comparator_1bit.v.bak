@@ -1,0 +1,13 @@
+module Comparator_1bit(
+    input wire A,      // 输入 A
+    input wire B,      // 输入 B
+    output wire A_lt_B, // LED1: A < B
+    output wire A_eq_B, // LED2: A = B
+    output wire A_gt_B  // LED3: A > B
+);
+
+    assign A_lt_B = (~A) & B;       // 当 A=0, B=1 时
+    assign A_eq_B = (A & B) | (~A & ~B); // 当 A=B 时
+    assign A_gt_B = A & (~B);       // 当 A=1, B=0 时
+
+endmodule

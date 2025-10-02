@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/quartus/lab1/comparator/prj/simulation/questa
+T_opt
+Z1 !s110 1759392169
+V4=c^C29BAR[:TJX4I<`9Y0
+04 18 4 work tb_comparator_1bit fast 0
+=1-bceca009a641-68de31a9-18d-28ac
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+vcomparator_1bit
+!s110 1759392168
+!i10b 1
+!s100 DjJ[21<S<KBdGMXhSbk[C0
+IJ4:i7mKEab9Ga<X`_?2bF2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1759391633
+8D:/quartus/lab1/comparator/RTL/comparator_1bit.v
+FD:/quartus/lab1/comparator/RTL/comparator_1bit.v
+L0 1
+Z4 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z5 !s108 1759392168.000000
+!s107 D:/quartus/lab1/comparator/RTL/comparator_1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus/lab1/comparator/RTL|D:/quartus/lab1/comparator/RTL/comparator_1bit.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/quartus/lab1/comparator/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_comparator_1bit
+R1
+!i10b 1
+!s100 jRTK3MURY7fEOLTSQe<Fa3
+I51P^TMK4VoK1KJ2QbVJk00
+R3
+R0
+w1759391631
+8D:/quartus/lab1/comparator/prj/../sim/tb_comparator.v
+FD:/quartus/lab1/comparator/prj/../sim/tb_comparator.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/quartus/lab1/comparator/prj/../sim/tb_comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/quartus/lab1/comparator/prj/../sim|D:/quartus/lab1/comparator/prj/../sim/tb_comparator.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/quartus/lab1/comparator/prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
